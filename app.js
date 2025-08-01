@@ -4,11 +4,11 @@ const navMenu = document.querySelector(".navbar-menu");
 const navLinks = document.querySelectorAll(".navbar-links");
 
 menu.addEventListener("click", () => {
-  menu.classList.toggle("change"); // animate hamburger to X
-  navMenu.classList.toggle("active"); // slide down menu
+  menu.classList.toggle("change");
+  navMenu.classList.toggle("active");
 });
 
-// Close menu when any link is clicked
+
 navLinks.forEach((link) => {
   link.addEventListener("click", () => {
     if (navMenu.classList.contains("active")) {
