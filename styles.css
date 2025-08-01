@@ -1,9 +1,11 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   margin: 0;
   padding: 0;
+  background-color: #ffffff;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  /*justify-content: center;*/
   align-items: center;
   height: 100vh;
   background-color: #ffffff;
@@ -11,7 +13,7 @@ body {
 
 /** Navbar **/
 .navbar {
-  background-color: white;
+  background-color: rgb(37, 62, 33);
   height: 80px;
   width: 100%;
   display: flex;
@@ -33,7 +35,7 @@ body {
 .navbar-logo {
   font-size: 22px;
   font-weight: bold;
-  color: black;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
@@ -149,7 +151,7 @@ body {
   border: 1px solid #ccc;
 }
 
-.profile-content h1 {
+#profile-name {
   font-size: 2.5rem;
   margin-bottom: 5px;
 }
